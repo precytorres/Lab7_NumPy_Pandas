@@ -1,0 +1,19 @@
+SECOM Semiconductor Manufacturing Analysis
+Student: Torres
+Student ID: TUPM-26-7944
+Random Seed: 267944
+Verification Value: 196
+Sample Size: 232
+Assigned Features: Feature_499, Feature_359, Feature_244, Feature_385, Feature_391
+Pass Records: 213
+Fail Records: 19
+Sample Failure: 8.19%
+Highest-SD Feature: Feature_499
+Highest Sample SD: 331.0140
+Verification: PASSED
+
+Interpretation Notes:
+- Median imputation supports descriptive analysis.
+- Raw variability does not imply feature importance.
+- Group differences do not establish failure causes.
+- Sample failure percentage is not prediction accuracy.
