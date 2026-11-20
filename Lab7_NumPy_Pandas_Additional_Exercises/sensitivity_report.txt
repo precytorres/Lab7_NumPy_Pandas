@@ -1,0 +1,27 @@
+SENSITIVITY REPORT - Torres TUPM-26-7944
+Seed Digit: 4, Random Seed: 267944
+============================================================
+
+Feature: App Usage Time (min/day)
+  Baseline - Mean: 259.93, Median: 221.00, Trimmed(10%): 247.83
+  Contaminated (10% outliers x5) - Mean: 531.46, Median: 256.50, Trimmed: 285.28
+  Sensitivity % - Mean: 104.47%, Median: 16.06%, Trimmed: 15.11%
+  Most Robust: Trimmed Mean
+  Interpretation: Mean ang pinaka-sensitive sa outliers, Median/Trimmed ang pinaka-matibay.
+
+Feature: Screen On Time (hours/day)
+  Baseline - Mean: 5.11, Median: 4.80, Trimmed(10%): 4.82
+  Contaminated (10% outliers x5) - Mean: 10.57, Median: 5.25, Trimmed: 5.57
+  Sensitivity % - Mean: 106.76%, Median: 9.38%, Trimmed: 15.39%
+  Most Robust: Median
+  Interpretation: Mean ang pinaka-sensitive sa outliers, Median/Trimmed ang pinaka-matibay.
+
+Feature: Battery Drain (mAh/day)
+  Baseline - Mean: 1472.66, Median: 1433.00, Trimmed(10%): 1437.38
+  Contaminated (10% outliers x5) - Mean: 2812.68, Median: 1563.00, Trimmed: 1613.08
+  Sensitivity % - Mean: 90.99%, Median: 9.07%, Trimmed: 12.22%
+  Most Robust: Median
+  Interpretation: Mean ang pinaka-sensitive sa outliers, Median/Trimmed ang pinaka-matibay.
+
+============================================================
+Conclusion: Median and Trimmed Mean are robust; Mean shifts heavily with outliers.
